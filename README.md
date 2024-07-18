@@ -20,10 +20,7 @@ Assume we have a serials TCP stream, and we already split it and generate it to 
 
 ````
 
-### layer-1
-* BigEndian([byte[0], byte[1]]) represents frame bytes length.
-* (byte[2], byte[3]) represents data flags, you can ignore its.
-* byte[4] represent frame contains SQL payload, you need dump it.
+
 
 ### Code
 
