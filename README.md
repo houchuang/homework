@@ -13,12 +13,10 @@ Assume we have a serials TCP stream, and we already split it and generate it to 
 
 ### Frame rules
 
-````
-|layout| bytes | type |
-|---| ---| --- |
-| layer-1| 8 bytes| header |
 
-````
+|layout| bytes | type |
+|---|---|---|
+| layer-1| 8 bytes| header |
 
 
 
