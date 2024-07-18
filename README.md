@@ -1,15 +1,17 @@
 # Homework
 
-## Intro 
+## Question 1
+### Intro
 Assume we have a serials TCP stream, and we already split it and generate it to a series of frames.
 
 
-## Require
+### Require
 
 1. You need parsing frames and dump visible characters.
 2. You need complete tests codes without errors.
+3. You need to think about time complexity.
 
-## Frame rules
+### Frame rules
 
 ````
 |layout| bytes | type |
@@ -23,7 +25,7 @@ Assume we have a serials TCP stream, and we already split it and generate it to 
 * (byte[2], byte[3]) represents data flags, you can ignore its.
 * byte[4] represent frame contains SQL payload, you need dump it.
 
-## Code 
+### Code
 
 ```go
 package tests
@@ -87,3 +89,4 @@ func parser(payload []byte) ([]byte, error) {
 }
 
 ```
+
