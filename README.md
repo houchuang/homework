@@ -10,7 +10,7 @@ Assume we have a serials TCP stream, and we already split it and generate it to 
 1. You need parsing frames and dump visible characters.
 2. You need complete tests codes without errors.
 3. You need to think about time complexity.
-4. You need to commit the final code to the current repository as a PR.
+4. You need to submit your code as a merge request to the current repository 
 
 ### Frame rules
 
